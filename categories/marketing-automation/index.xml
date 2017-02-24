@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Marketing Automation on Raen </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://raen.co.za/categories/marketing-automation/index.xml</link>
+    <language>en-us</language>
+    
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>an introduction to mautic</title>
+      <link>http://raen.co.za/post/introduction-to-mautic/</link>
+      <pubDate>Thu, 29 Dec 2016 10:56:07 SAST</pubDate>
+      
+      <guid>http://raen.co.za/post/introduction-to-mautic/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/mktcdn.uberflip.com/automation-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-mautic&#34;&gt;what is mautic?&lt;/h3&gt;
+
+&lt;p&gt;Mautic is an open source marketing automation platform. Like its competitors, Hubspot, Marketo, Pardot and others, it can be used to automate marketing processes that are repetitive and difficult - email marketing, social media marketing, lead generation, tracking and scoring.&lt;/p&gt;
+
+&lt;p&gt;The difference between Mautic and its competitors is that Mautic is completely free, and the source code is available, making it theoretically possible to customize it at a source code level if necessary.&lt;/p&gt;
+
+&lt;h3 id=&#34;price-comparison&#34;&gt;price comparison&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://raen.co.za/images/mautic-pricing.PNG&#34; alt=&#34;Mautic comparison&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://raen.co.za/images/mautic-pricing.PNG&#34;&gt;Click here for a Mautic feature/price comparison&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;getting-started&#34;&gt;getting started&lt;/h3&gt;
+
+&lt;p&gt;Installing Mautic is fairly painless - all you need is to have a working PHP and MySQL stack. It&amp;rsquo;s explained well on the web site:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mautic.org/tour/&#34;&gt;Take a tour of Mautic&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;campaigns-forms-and-landing-pages&#34;&gt;campaigns, forms and landing pages&lt;/h3&gt;
+
+&lt;p&gt;Mautic has all of the functionality you&amp;rsquo;d expect in a marketing automation tool - campaigns, reports, landing pages and forms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.mautic.org/wp-content/uploads/2014/08/campaign_overview.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Getting started is quite straight forward if you are familiar with Hubspot or Marketo. If you&amp;rsquo;re completely new, check out their getting started guide:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mautic.org/getting-started/&#34;&gt;Get started with Mautic&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;conclusion&lt;/h3&gt;
+
+&lt;p&gt;If your company doesn&amp;rsquo;t have marketing automation, you should get it. There are a lot of options, but Mautic is definitely to look into, potentially saving thousands of dollars per month. Self hosting isn&amp;rsquo;t for everyone, but it will give you complete control over your marketing automation software.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for my next Mautic blog - how to migrate your data from Hubspot to Mautic.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
