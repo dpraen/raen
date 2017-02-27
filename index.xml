@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Raen on Raen </title>
+      <title>Test on Raen </title>
       <generator uri="https://gohugo.io">Hugo</generator>
     <link>https://dpraen.github.io/raen/index.xml</link>
     <language>en-us</language>
     
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <updated>Tue, 21 Feb 2017 17:04:48 SAST</updated>
+    
+    <item>
+      <title>misunderstanding static vs dynamic</title>
+      <link>https://dpraen.github.io/raen/post/static-vs-dynamic/</link>
+      <pubDate>Fri, 24 Feb 2017 10:56:07 SAST</pubDate>
+      
+      <guid>https://dpraen.github.io/raen/post/static-vs-dynamic/</guid>
+      <description>
+
+&lt;h3 id=&#34;static&#34;&gt;Static&lt;/h3&gt;
+
+&lt;h3 id=&#34;dynamic&#34;&gt;Dynamic&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>microsoft&#39;s coding ai</title>
