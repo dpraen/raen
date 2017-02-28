@@ -10,6 +10,193 @@
     <updated>Tue, 21 Feb 2017 17:04:48 SAST</updated>
     
     <item>
+      <title>smackdown: html vs markdown</title>
+      <link>https://dpraen.github.io/raen/post/smackdown-html-vs-markdown/</link>
+      <pubDate>Tue, 28 Feb 2017 10:56:07 SAST</pubDate>
+      
+      <guid>https://dpraen.github.io/raen/post/smackdown-html-vs-markdown/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://leantesting.com/wp-content/uploads/2016/04/Markdown-mark.svg_.png&#34; alt=&#34;Markdown&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;smackdown-html-vs-markdown&#34;&gt;smackdown - html vs markdown&lt;/h3&gt;
+
+&lt;p&gt;Welcome to the first Raen Smackdown.&lt;/p&gt;
+
+&lt;p&gt;The question today is:&lt;/p&gt;
+
+&lt;p&gt;Which is better for web writing, HTML or Markdown?&lt;/p&gt;
+
+&lt;p&gt;This is a controversial topic. I use both, and I like both. HTML is more versatile. For layouts and very rich pages, HTML is clearly the way to go.&lt;/p&gt;
+
+&lt;p&gt;This topic, however, is about web writing. Content only, not layout. Let&amp;rsquo;s dive in.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-html&#34;&gt;what is html?&lt;/h3&gt;
+
+&lt;p&gt;Hypertext Markup Language was invented in 1990 by Tim Berners-Lee. Browsers understand this language and use it to determine how a page should be displayed.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-markdown&#34;&gt;what is markdown?&lt;/h3&gt;
+
+&lt;p&gt;Markdown is a lightweight markup language that gets converted to HTML. It&amp;rsquo;s simpler than HTML but does not have as many features.&lt;/p&gt;
+
+&lt;h3 id=&#34;samples-of-both&#34;&gt;Samples of both&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Here is an awesome cheat sheet on GitHub - thanks Adam P!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I used some examples from it in this smackdown.&lt;/p&gt;
+
+&lt;h4 id=&#34;title-tags&#34;&gt;Title tags:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;This is an H1 tag in HTML&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;# This is an H1 tag in Markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h2&amp;gt;This is an H2 tag in HTML&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## This is an H2 tag in Markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For title tags, Markdown clearly smacks down HTML - it&amp;rsquo;s far simpler. &lt;strong&gt;Running total: Markdown 1, HTML 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;lists&#34;&gt;Lists:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;List item 1&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;List item 2&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;List item 3&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;* List item 1
+* List item 2
+* List item 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For lists, Markdown clearly smacks down HTML - there&amp;rsquo;s less typing involved. &lt;strong&gt;Running total: Markdown 2, HTML 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;strong-and-italic&#34;&gt;strong and italic:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;strong&amp;gt;strong in HTML&amp;lt;/strong&amp;gt;
+&amp;lt;em&amp;gt;emphasized in HTML&amp;lt;/em&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;**strong in Markdown**
+*emphasized in Markdown*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For strong and emphasized, HTML wins - although there&amp;rsquo;s more typing, it&amp;rsquo;s clearer. &lt;strong&gt;Running total: Markdown 2, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;links&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;[link description](http://example-markdown-link/)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://exmaple-html-link&amp;quot;&amp;gt;link description&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is somewhat close, but Markdown wins due to simpler syntax. &lt;strong&gt;Running total: Markdown 3, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;images&#34;&gt;images&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;![image alt text](http://example-markdown-image.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;http://example-html-image.png&amp;quot; alt=&amp;quot;image alt text&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Again, Markdown wins due to simpler syntax. &lt;strong&gt;Running total: Markdown 4, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;tables&#34;&gt;tables&lt;/h4&gt;
+
+&lt;p&gt;(From the cheat sheet page)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+&amp;lt;tr&amp;gt;
+  &amp;lt;th&amp;gt;Tables&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Are&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Cool&amp;lt;/th&amp;gt;  
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;col 3 is&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;right-aligned&amp;lt;/td&amp;gt;
+  &amp;lt;td align=&amp;quot;right&amp;quot;&amp;gt;$1600&amp;lt;/td&amp;gt;  
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;col 2 is&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;centered-aligned&amp;lt;/td&amp;gt;
+  &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;$12&amp;lt;/td&amp;gt;  
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;zebra stripes&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;are neat&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;$1&amp;lt;/td&amp;gt;  
+&amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t even close. It&amp;rsquo;s a complete smackdown for Markdown. &lt;strong&gt;Running total: Markdown 5, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;line-breaks&#34;&gt;line breaks&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;page break in markdown:
+
+single line break (line 1)
+single line break (line 2)
+
+double line break (line 1)
+
+double line break (line 2)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;line break in html:
+
+single line break (line 1)&amp;lt;br /&amp;gt;single line break (line 2)
+double line break (line 1)&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;double line break (line 2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This one goes to Markdown - putting a space between the lines as desired is less likely to cause mistakes than using tags. &lt;strong&gt;Running total: Markdown 6, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;page-breaks&#34;&gt;page breaks&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;page break in markdown:
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;page break in html:
+&amp;lt;hr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This one goes to HTML - it&amp;rsquo;s more intuitive. &lt;strong&gt;Running total: Markdown 6, HTML 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;conclusion&lt;/h3&gt;
+
+&lt;p&gt;There&amp;rsquo;s more to it than what was covered in this smackdown, but for web writing, it&amp;rsquo;s clear from the above smackdown that for web copy, Markdown is simpler.&lt;/p&gt;
+
+&lt;p&gt;HTML still has its place, but for web copy, it&amp;rsquo;s overkill.&lt;/p&gt;
+
+&lt;p&gt;Markdown is a good compromise between web-based WYSIWYG editors, like WordPress (easy UI but a lot of drawbacks), and writing raw HTML (great to a certain extent, but too complex for some authors, and perhaps overkill for most web copy use-cases even if you are seasoned web designer or developer.)&lt;/p&gt;
+
+&lt;p&gt;Final score: &lt;strong&gt;Markdown 6, HTML 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for the next Smackdown.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>write great web copy with hemingway app</title>
       <link>https://dpraen.github.io/raen/post/write-great-web-copy/</link>
       <pubDate>Mon, 27 Feb 2017 10:56:07 SAST</pubDate>
