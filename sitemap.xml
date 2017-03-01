@@ -49,25 +49,25 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/tags/development/</loc>
-    <lastmod>2017-02-22T10:56:07+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dpraen.github.io/raen/categories/development/</loc>
     <lastmod>2017-02-22T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/tags/marketing-automation/</loc>
-    <lastmod>2016-12-29T10:56:07+02:00</lastmod>
+    <loc>https://dpraen.github.io/raen/tags/development/</loc>
+    <lastmod>2017-02-22T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dpraen.github.io/raen/categories/marketing-automation/</loc>
+    <lastmod>2016-12-29T10:56:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dpraen.github.io/raen/tags/marketing-automation/</loc>
     <lastmod>2016-12-29T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -79,13 +79,13 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/tags/seo/</loc>
+    <loc>https://dpraen.github.io/raen/categories/seo/</loc>
     <lastmod>2017-02-27T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/categories/seo/</loc>
+    <loc>https://dpraen.github.io/raen/tags/seo/</loc>
     <lastmod>2017-02-27T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -96,13 +96,13 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/tags/technology/</loc>
+    <loc>https://dpraen.github.io/raen/categories/technology/</loc>
     <lastmod>2017-02-28T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/categories/technology/</loc>
+    <loc>https://dpraen.github.io/raen/tags/technology/</loc>
     <lastmod>2017-02-28T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
