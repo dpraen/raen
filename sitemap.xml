@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dpraen.github.io/raen/post/smackdown-html-vs-markdown/</loc>
+    <loc>https://dpraen.github.io/raen/post/2017/02/28/smackdown-html-vs-markdown/</loc>
     <lastmod>2017-02-28T10:56:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/post/write-great-web-copy/</loc>
+    <loc>https://dpraen.github.io/raen/post/2017/02/27/write-great-web-copy/</loc>
     <lastmod>2017-02-27T10:56:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/post/microsoft-coding-ai/</loc>
+    <loc>https://dpraen.github.io/raen/post/2017/02/22/microsoft-coding-ai/</loc>
     <lastmod>2017-02-22T10:56:07+02:00</lastmod>
   </url>
   
@@ -22,12 +22,12 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/post/universal-cure/</loc>
+    <loc>https://dpraen.github.io/raen/post/2017/01/19/universal-cure/</loc>
     <lastmod>2017-01-19T10:56:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/post/introduction-to-mautic/</loc>
+    <loc>https://dpraen.github.io/raen/post/2016/12/29/introduction-to-mautic/</loc>
     <lastmod>2016-12-29T10:56:07+02:00</lastmod>
   </url>
   
@@ -49,25 +49,25 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/categories/development/</loc>
-    <lastmod>2017-02-22T10:56:07+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dpraen.github.io/raen/tags/development/</loc>
     <lastmod>2017-02-22T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/categories/marketing-automation/</loc>
-    <lastmod>2016-12-29T10:56:07+02:00</lastmod>
+    <loc>https://dpraen.github.io/raen/categories/development/</loc>
+    <lastmod>2017-02-22T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dpraen.github.io/raen/tags/marketing-automation/</loc>
+    <lastmod>2016-12-29T10:56:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dpraen.github.io/raen/categories/marketing-automation/</loc>
     <lastmod>2016-12-29T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -79,13 +79,13 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/categories/seo/</loc>
+    <loc>https://dpraen.github.io/raen/tags/seo/</loc>
     <lastmod>2017-02-27T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/tags/seo/</loc>
+    <loc>https://dpraen.github.io/raen/categories/seo/</loc>
     <lastmod>2017-02-27T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -96,13 +96,13 @@
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/categories/technology/</loc>
+    <loc>https://dpraen.github.io/raen/tags/technology/</loc>
     <lastmod>2017-02-28T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dpraen.github.io/raen/tags/technology/</loc>
+    <loc>https://dpraen.github.io/raen/categories/technology/</loc>
     <lastmod>2017-02-28T10:56:07+02:00</lastmod>
     <priority>0</priority>
   </url>
