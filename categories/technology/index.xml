@@ -65,7 +65,7 @@ from the header to the footer, these apply to Hugo as well.&lt;/p&gt;
 
 &lt;p&gt;WordPress has a range of caching plugins available which can help, but the clear winner is Hugo.&lt;/p&gt;
 
-&lt;p&gt;I contribute to a WordPress based blog called The Men-Tal Hospital. I did a comparison between load times of the two sites using the &lt;a href=&#34;tools.pingdom.com&#34;&gt;Pingdom Website Speed Test&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I contribute to a WordPress based blog called &lt;a href=&#34;https://www.thementalhospital.co.za&#34;&gt;The Men-Tal Hospital&lt;/a&gt;. I did a comparison between load times of the two sites using the &lt;a href=&#34;https://tools.pingdom.com&#34;&gt;Pingdom Website Speed Test&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The Men-Tal Hospital took an average of 14 seconds to load.
 Raen, based on Hugo, took merely 0.68 seconds.&lt;/p&gt;
