@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Smackdown on Raen </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://dpraen.github.io/raen/tags/smackdown/index.xml</link>
+    <language>en-us</language>
+    
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>smackdown: wordpress vs hugo</title>
+      <link>https://dpraen.github.io/raen/post/2017/03/03/smackdown-wordpress-vs-hugo/</link>
+      <pubDate>Fri, 03 Mar 2017 10:56:07 SAST</pubDate>
+      
+      <guid>https://dpraen.github.io/raen/post/2017/03/03/smackdown-wordpress-vs-hugo/</guid>
+      <description>
+
+&lt;p&gt;&lt;img width=&#34;45%&#34; src=&#34;http://www.moveableonline.com/Assets/wordpress-logo.png&#34;&gt;
+&lt;img width=&#34;45%&#34; src=&#34;http://themes.gohugo.io/img/hugoSM.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The question today is:&lt;/p&gt;
+
+&lt;p&gt;Which is a better platform in terms of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Speed&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;Infrastructure Requirements&lt;/li&gt;
+&lt;li&gt;Flexibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;between WordPress and Hugo.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-wordpress&#34;&gt;what is wordpress?&lt;/h3&gt;
+
+&lt;p&gt;WordPress is, by volume, the leading web site creation engine in the world, powering an impressive &lt;a href=&#34;http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/&#34;&gt;25% of all web sites&lt;/a&gt;. It&amp;rsquo;s based on PHP and MySQL. It serves pages dynamically.
+Upon each request, WordPress will get information from the database, and build the page using a combination of the data, the WordPress
+theme and plugins, and the WordPress engine itself.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-hugo&#34;&gt;what is hugo?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt; is the 2nd most popular static site generator. It is known for lightning fast speed, being written in Go,
+and pre-generates all of the pages of a given project. This means that the pages are not served dynamically, but rather statically. The
+entire site is rebuilt when a change is made, and the static assets are re-deployed.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-do-they-stack-up&#34;&gt;how do they stack up?&lt;/h3&gt;
+
+&lt;h4 id=&#34;speed&#34;&gt;Speed&lt;/h4&gt;
+
+&lt;p&gt;WordPress serves pages dynamically, meaning that every time a request is made to the server, the user must wait for the WordPress engine
+to fetch data from the database, and wait for the page to be built by the server side scripts that make up a WordPress instance, which
+can be effected by multiple plugins and PHP scripts.&lt;/p&gt;
+
+&lt;p&gt;Since this is a multi step process, it will impact page load speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.udeserve.in/blog/wp-content/uploads/2013/10/Static-vs-dynamic-website.jpg&#34; alt=&#34;Static vs dynamic web sites&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hugo, on the other hand, pre-generates everything based on HTML layouts, Go HTML template logic and content files. Since the result is
+static HTML, there is no wait for the page to be generated before it&amp;rsquo;s served - it can just be served.&lt;/p&gt;
+
+&lt;p&gt;Although there are ways to speed up WordPress page load speed, such as minifying assets and moving load blocking scripts
+from the header to the footer, these apply to Hugo as well.&lt;/p&gt;
+
+&lt;p&gt;WordPress has a range of caching plugins available which can help, but the clear winner is Hugo.&lt;/p&gt;
+
+&lt;p&gt;I contribute to a WordPress based blog called &lt;a href=&#34;http://www.thementalhospital.co.za&#34;&gt;The Men-Tal Hospital&lt;/a&gt;. I did a comparison between load times of the two sites using the &lt;a href=&#34;https://tools.pingdom.com&#34;&gt;Pingdom Website Speed Test&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Men-Tal Hospital took an average of 14 seconds to load.
+Raen, based on Hugo, took merely 0.68 seconds.&lt;/p&gt;
+
+&lt;p&gt;WordPress is smacked down hard here. &lt;strong&gt;Running total: Hugo 1, WordPress 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;security&#34;&gt;security&lt;/h4&gt;
+
+&lt;p&gt;WordPress has a bad &lt;a href=&#34;https://premium.wpmudev.org/blog/wordpress-security-exploits/&#34;&gt;security track record&lt;/a&gt;, and it&amp;rsquo;s partially due to the fact that it relies
+on a rather large technology stack - a web server, MySQL database, PHP installation, a WordPress instance, and then whatever plugins and themes are used to
+achieve the final web site build. If any of these technologies in the stack of vulnerable, it could cause a security breach. This is before considering the
+fact that every area where user input is allowed and talks to the WordPress instance and database adds to the attack surface area.&lt;/p&gt;
+
+&lt;p&gt;Hugo sites, on the other hand, are statically built, and have a far smaller attack surface area.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s no real competition in this area - Hugo smacks down WordPress again. &lt;strong&gt;Running total: Hugo 2, WordPress 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;infrastructure-requirements&#34;&gt;infrastructure requirements&lt;/h4&gt;
+
+&lt;p&gt;WordPress requires a large technology stack: a web server, PHP, and MySQL. It is also recommended that the operating system is Linux. I don&amp;rsquo;t have a problem
+with this, as I love Linux, but the truth is that it does narrow down your hosting choices somewhat. It also means that there&amp;rsquo;s a lot more maintenance involved
+in terms of software updates. The OS, database, WordPress and PHP installation must all be kept up to date. This can cause incompatibilities and errors to
+creep in and unless handled carefully, could become a headache.&lt;/p&gt;
+
+&lt;p&gt;Hugo just requires a web server, as the entire site is static. Sites built with Hugo can be deployed directly on CDNs and are great choices for deploying to
+Cloud based services such as S3 or Azure.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s another hard smackdown. &lt;strong&gt;Running total: Hugo 3, WordPress 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;flexibility&#34;&gt;flexibility&lt;/h4&gt;
+
+&lt;p&gt;WordPress is very flexible at the surface level - themes can be spun up quickly which can change the look and feel of the site in short order. Plugins can
+be used to add almost any functionality you desire. The problem comes in when too many plugins are added, or themes become too complicated and
+conflict with other parts of the system. There&amp;rsquo;s no question that you can add functionality very easily to WordPress, as you can drop in PHP scripts
+quite easily if all else fails - but often you will do this at your peril, as WordPress over-customization can cause serious issues on your site.&lt;/p&gt;
+
+&lt;p&gt;Hugo is flexible in a different way. It&amp;rsquo;s not so easy to make surface-level changes, but mid-level changes are much easier in Hugo, as almost all
+changes can be made with HTML, Go HTML templates, and content files. WordPress is a bit more flexible in some ways, as if interactive elements need to
+be added that require server side scripts, AJAX will have to be employed to get the functionality into a Hugo-based site, and if too many of these
+elements are required, Hugo is no longer a good choice.&lt;/p&gt;
+
+&lt;p&gt;WordPress wins this one, but narrowly. &lt;strong&gt;Running total: Hugo 3, WordPress 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;conclusion&lt;/h3&gt;
+
+&lt;p&gt;If you require a lot of server-side code, Hugo may not be the right choice for you, but the reality is that most sites that WordPress and Hugo are used
+for do not require this functionality. Everything from site search (JSON based indexes and Google Custom Site Search) to forms (Marketing automation tools like Hubspot or Mautic) can be handled without server-side code, with better results in most cases.&lt;/p&gt;
+
+&lt;p&gt;The speed, infrastructure and security advantages of using Hugo far outweigh any surface-level ease of use benefits that WordPress provides.&lt;/p&gt;
+
+&lt;p&gt;Hugo wins this smackdown.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>smackdown: html vs markdown</title>
+      <link>https://dpraen.github.io/raen/post/2017/02/28/smackdown-html-vs-markdown/</link>
+      <pubDate>Tue, 28 Feb 2017 10:56:07 SAST</pubDate>
+      
+      <guid>https://dpraen.github.io/raen/post/2017/02/28/smackdown-html-vs-markdown/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://leantesting.com/wp-content/uploads/2016/04/Markdown-mark.svg_.png&#34; width=&#34;45%&#34;&gt;
+&lt;img src=&#34;https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png&#34; width=&#34;45%&#34;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;smackdown-html-vs-markdown&#34;&gt;smackdown - html vs markdown&lt;/h3&gt;
+
+&lt;p&gt;Welcome to the first Raen Smackdown.&lt;/p&gt;
+
+&lt;p&gt;The question today is:&lt;/p&gt;
+
+&lt;p&gt;Which is better for web writing, HTML or Markdown?&lt;/p&gt;
+
+&lt;p&gt;This is a controversial topic. I use both, and I like both. HTML is more versatile. For layouts and very rich pages, HTML is clearly the way to go.&lt;/p&gt;
+
+&lt;p&gt;This topic, however, is about web writing. Content only, not layout. Let&amp;rsquo;s dive in.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-html&#34;&gt;what is html?&lt;/h3&gt;
+
+&lt;p&gt;Hypertext Markup Language was invented in 1990 by Tim Berners-Lee. Browsers understand this language and use it to determine how a page should be displayed.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-markdown&#34;&gt;what is markdown?&lt;/h3&gt;
+
+&lt;p&gt;Markdown is a lightweight markup language that gets converted to HTML. It&amp;rsquo;s simpler than HTML but does not have as many features.&lt;/p&gt;
+
+&lt;h3 id=&#34;samples-of-both&#34;&gt;Samples of both&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Here is an awesome cheat sheet on GitHub - thanks Adam P!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I used some examples from it in this smackdown.&lt;/p&gt;
+
+&lt;h4 id=&#34;title-tags&#34;&gt;Title tags:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;This is an H1 tag in HTML&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;# This is an H1 tag in Markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h2&amp;gt;This is an H2 tag in HTML&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## This is an H2 tag in Markdown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For title tags, Markdown clearly smacks down HTML - it&amp;rsquo;s far simpler. &lt;strong&gt;Running total: Markdown 1, HTML 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;lists&#34;&gt;Lists:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;List item 1&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;List item 2&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;List item 3&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;* List item 1
+* List item 2
+* List item 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For lists, Markdown clearly smacks down HTML - there&amp;rsquo;s less typing involved. &lt;strong&gt;Running total: Markdown 2, HTML 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;strong-and-italic&#34;&gt;strong and italic:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;strong&amp;gt;strong in HTML&amp;lt;/strong&amp;gt;
+&amp;lt;em&amp;gt;emphasized in HTML&amp;lt;/em&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;**strong in Markdown**
+*emphasized in Markdown*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For strong and emphasized, HTML wins - although there&amp;rsquo;s more typing, it&amp;rsquo;s clearer. &lt;strong&gt;Running total: Markdown 2, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;links&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;[link description](http://example-markdown-link/)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://exmaple-html-link&amp;quot;&amp;gt;link description&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is somewhat close, but Markdown wins due to simpler syntax. &lt;strong&gt;Running total: Markdown 3, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;images&#34;&gt;images&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;![image alt text](http://example-markdown-image.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;http://example-html-image.png&amp;quot; alt=&amp;quot;image alt text&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Again, Markdown wins due to simpler syntax. &lt;strong&gt;Running total: Markdown 4, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;tables&#34;&gt;tables&lt;/h4&gt;
+
+&lt;p&gt;(From the cheat sheet page)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+&amp;lt;tr&amp;gt;
+  &amp;lt;th&amp;gt;Tables&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Are&amp;lt;/th&amp;gt;
+  &amp;lt;th&amp;gt;Cool&amp;lt;/th&amp;gt;  
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;col 3 is&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;right-aligned&amp;lt;/td&amp;gt;
+  &amp;lt;td align=&amp;quot;right&amp;quot;&amp;gt;$1600&amp;lt;/td&amp;gt;  
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;col 2 is&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;centered-aligned&amp;lt;/td&amp;gt;
+  &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;$12&amp;lt;/td&amp;gt;  
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;zebra stripes&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;are neat&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;$1&amp;lt;/td&amp;gt;  
+&amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t even close. It&amp;rsquo;s a complete smackdown for Markdown. &lt;strong&gt;Running total: Markdown 5, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;line-breaks&#34;&gt;line breaks&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;page break in markdown:
+
+single line break (line 1)
+single line break (line 2)
+
+double line break (line 1)
+
+double line break (line 2)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;line break in html:
+
+single line break (line 1)&amp;lt;br /&amp;gt;single line break (line 2)
+double line break (line 1)&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;double line break (line 2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This one goes to Markdown - putting a space between the lines as desired is less likely to cause mistakes than using tags. &lt;strong&gt;Running total: Markdown 6, HTML 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;page-breaks&#34;&gt;page breaks&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;page break in markdown:
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;page break in html:
+&amp;lt;hr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This one goes to HTML - it&amp;rsquo;s more intuitive. &lt;strong&gt;Running total: Markdown 6, HTML 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;conclusion&lt;/h3&gt;
+
+&lt;p&gt;There&amp;rsquo;s more to it than what was covered in this smackdown, but for web writing, it&amp;rsquo;s clear from the above smackdown that for web copy, Markdown is simpler.&lt;/p&gt;
+
+&lt;p&gt;HTML still has its place, but for web copy, it&amp;rsquo;s overkill.&lt;/p&gt;
+
+&lt;p&gt;Markdown is a good compromise between web-based WYSIWYG editors, like WordPress (easy UI but a lot of drawbacks), and writing raw HTML (great to a certain extent, but too complex for some authors, and perhaps overkill for most web copy use-cases even if you are seasoned web designer or developer.)&lt;/p&gt;
+
+&lt;p&gt;Final score: &lt;strong&gt;Markdown 6, HTML 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for the next Smackdown.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
