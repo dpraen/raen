@@ -7,7 +7,118 @@
     <language>en-us</language>
     
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <updated>Tue, 28 Feb 2017 10:56:07 SAST</updated>
+    <updated>Fri, 03 Mar 2017 10:56:07 SAST</updated>
+    
+    <item>
+      <title>smackdown: wordpress vs hugo</title>
+      <link>https://dpraen.github.io/raen/post/2017/03/03/smackdown-wordpress-vs-hugo/</link>
+      <pubDate>Fri, 03 Mar 2017 10:56:07 SAST</pubDate>
+      
+      <guid>https://dpraen.github.io/raen/post/2017/03/03/smackdown-wordpress-vs-hugo/</guid>
+      <description>
+
+&lt;p&gt;&lt;img width=&#34;45%&#34; src=&#34;http://www.moveableonline.com/Assets/wordpress-logo.png&#34;&gt;
+&lt;img width=&#34;45%&#34; src=&#34;http://themes.gohugo.io/img/hugoSM.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The question today is:&lt;/p&gt;
+
+&lt;p&gt;Which is a better platform in terms of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Speed&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;Infrastructure Requirements&lt;/li&gt;
+&lt;li&gt;Flexibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;between WordPress and Hugo.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-wordpress&#34;&gt;what is wordpress?&lt;/h3&gt;
+
+&lt;p&gt;WordPress is, by volume, the leading web site creation engine in the world, powering an impressive &lt;a href=&#34;http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/&#34;&gt;25% of all web sites&lt;/a&gt;. It&amp;rsquo;s based on PHP and MySQL. It serves pages dynamically.
+Upon each request, WordPress will get information from the database, and build the page using a combination of the data, the WordPress
+theme and plugins, and the WordPress engine itself.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-hugo&#34;&gt;what is hugo?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt; is the 2nd most popular static site generator. It is known for lightning fast speed, being written in Go,
+and pre-generates all of the pages of a given project. This means that the pages are not served dynamically, but rather statically. The
+entire site is rebuilt when a change is made, and the static assets are re-deployed.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-do-they-stack-up&#34;&gt;how do they stack up?&lt;/h3&gt;
+
+&lt;h4 id=&#34;speed&#34;&gt;Speed&lt;/h4&gt;
+
+&lt;p&gt;WordPress serves pages dynamically, meaning that every time a request is made to the server, the user must wait for the WordPress engine
+to fetch data from the database, and wait for the page to be built by the server side scripts that make up a WordPress instance, which
+can be effected by multiple plugins and PHP scripts.&lt;/p&gt;
+
+&lt;p&gt;Since this is a multi step process, it will impact page load speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.udeserve.in/blog/wp-content/uploads/2013/10/Static-vs-dynamic-website.jpg&#34; alt=&#34;Static vs dynamic web sites&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hugo, on the other hand, pre-generates everything based on HTML layouts, Go HTML template logic and content files. Since the result is
+static HTML, there is no wait for the page to be generated before it&amp;rsquo;s served - it can just be served.&lt;/p&gt;
+
+&lt;p&gt;Although there are ways to speed up WordPress page load speed, such as minifying assets and moving load blocking scripts
+from the header to the footer, these apply to Hugo as well.&lt;/p&gt;
+
+&lt;p&gt;WordPress has a range of caching plugins available which can help, but the clear winner is Hugo.&lt;/p&gt;
+
+&lt;p&gt;I contribute to a WordPress based blog called The Men-Tal Hospital. I did a comparison between load times of the two sites using the &lt;a href=&#34;tools.pingdom.com&#34;&gt;Pingdom Website Speed Test&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Men-Tal Hospital took an average of 14 seconds to load.
+Raen, based on Hugo, took merely 0.68 seconds.&lt;/p&gt;
+
+&lt;p&gt;WordPress is smacked down hard here. &lt;strong&gt;Running total: Hugo 1, WordPress 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;security&#34;&gt;security&lt;/h4&gt;
+
+&lt;p&gt;WordPress has a bad &lt;a href=&#34;https://premium.wpmudev.org/blog/wordpress-security-exploits/&#34;&gt;security track record&lt;/a&gt;, and it&amp;rsquo;s partially due to the fact that it relies
+on a rather large technology stack - a web server, MySQL database, PHP installation, a WordPress instance, and then whatever plugins and themes are used to
+achieve the final web site build. If any of these technologies in the stack of vulnerable, it could cause a security breach. This is before considering the
+fact that every area where user input is allowed and talks to the WordPress instance and database adds to the attack surface area.&lt;/p&gt;
+
+&lt;p&gt;Hugo sites, on the other hand, are statically built, and have a far smaller attack surface area.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s no real competition in this area - Hugo smacks down WordPress again. &lt;strong&gt;Running total: Hugo 2, WordPress 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;infrastructure-requirements&#34;&gt;infrastructure requirements&lt;/h4&gt;
+
+&lt;p&gt;WordPress requires a large technology stack: a web server, PHP, and MySQL. It is also recommended that the operating system is Linux. I don&amp;rsquo;t have a problem
+with this, as I love Linux, but the truth is that it does narrow down your hosting choices somewhat. It also means that there&amp;rsquo;s a lot more maintenance involved
+in terms of software updates. The OS, database, WordPress and PHP installation must all be kept up to date. This can cause incompatibilities and errors to
+creep in and unless handled carefully, could become a headache.&lt;/p&gt;
+
+&lt;p&gt;Hugo just requires a web server, as the entire site is static. Sites built with Hugo can be deployed directly on CDNs and are great choices for deploying to
+Cloud based services such as S3 or Azure.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s another hard smackdown. &lt;strong&gt;Running total: Hugo 3, WordPress 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;flexibility&#34;&gt;flexibility&lt;/h4&gt;
+
+&lt;p&gt;WordPress is very flexible at the surface level - themes can be spun up quickly which can change the look and feel of the site in short order. Plugins can
+be used to add almost any functionality you desire. The problem comes in when too many plugins are added, or themes become too complicated and
+conflict with other parts of the system. There&amp;rsquo;s no question that you can add functionality very easily to WordPress, as you can drop in PHP scripts
+quite easily if all else fails - but often you will do this at your peril, as WordPress over-customization can cause serious issues on your site.&lt;/p&gt;
+
+&lt;p&gt;Hugo is flexible in a different way. It&amp;rsquo;s not so easy to make surface-level changes, but mid-level changes are much easier in Hugo, as almost all
+changes can be made with HTML, Go HTML templates, and content files. WordPress is a bit more flexible in some ways, as if interactive elements need to
+be added that require server side scripts, AJAX will have to be employed to get the functionality into a Hugo-based site, and if too many of these
+elements are required, Hugo is no longer a good choice.&lt;/p&gt;
+
+&lt;p&gt;WordPress wins this one, but narrowly. &lt;strong&gt;Running total: Hugo 3, WordPress 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;conclusion&lt;/h3&gt;
+
+&lt;p&gt;If you require a lot of server-side code, Hugo may not be the right choice for you, but the reality is that most sites that WordPress and Hugo are used
+for do not require this functionality. Everything from site search (JSON based indexes and Google Custom Site Search) to forms (Marketing automation tools like Hubspot or Mautic) can be handled without server-side code, with better results in most cases.&lt;/p&gt;
+
+&lt;p&gt;The speed, infrastructure and security advantages of using Hugo far outweigh any surface-level ease of use benefits that WordPress provides.&lt;/p&gt;
+
+&lt;p&gt;Hugo wins this smackdown.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>smackdown: html vs markdown</title>
