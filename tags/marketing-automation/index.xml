@@ -3,7 +3,7 @@
   <channel>
       <title>Marketing Automation on Raen </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://dpraen.github.io/raen/tags/marketing-automation/index.xml</link>
+    <link>/tags/marketing-automation/index.xml</link>
     <language>en-us</language>
     
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -11,10 +11,10 @@
     
     <item>
       <title>an introduction to mautic</title>
-      <link>https://dpraen.github.io/raen/post/2016/12/29/introduction-to-mautic/</link>
+      <link>/post/2016/12/29/introduction-to-mautic/</link>
       <pubDate>Thu, 29 Dec 2016 10:56:07 SAST</pubDate>
       
-      <guid>https://dpraen.github.io/raen/post/2016/12/29/introduction-to-mautic/</guid>
+      <guid>/post/2016/12/29/introduction-to-mautic/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://i0.wp.com/mktcdn.uberflip.com/automation-resources.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -37,9 +37,9 @@
 
 &lt;h3 id=&#34;price-comparison&#34;&gt;price comparison&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dpraen.github.io/raen/images/mautic-pricing.PNG&#34; alt=&#34;Mautic comparison&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/mautic-pricing.PNG&#34; alt=&#34;Mautic comparison&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://dpraen.github.io/raen/images/mautic-pricing.PNG&#34;&gt;Click here for a Mautic feature/price comparison&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/images/mautic-pricing.PNG&#34;&gt;Click here for a Mautic feature/price comparison&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;getting-started&#34;&gt;getting started&lt;/h3&gt;
 
