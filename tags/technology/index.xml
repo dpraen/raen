@@ -3,7 +3,7 @@
   <channel>
       <title>Technology on Raen </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>/tags/technology/index.xml</link>
+    <link>http://www.raen.co.za/tags/technology/index.xml</link>
     <language>en-us</language>
     
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -11,10 +11,10 @@
     
     <item>
       <title>smackdown: wordpress vs hugo</title>
-      <link>/post/2017/03/03/smackdown-wordpress-vs-hugo/</link>
+      <link>http://www.raen.co.za/post/2017/03/03/smackdown-wordpress-vs-hugo/</link>
       <pubDate>Fri, 03 Mar 2017 10:56:07 SAST</pubDate>
       
-      <guid>/post/2017/03/03/smackdown-wordpress-vs-hugo/</guid>
+      <guid>http://www.raen.co.za/post/2017/03/03/smackdown-wordpress-vs-hugo/</guid>
       <description>
 
 &lt;p&gt;&lt;img width=&#34;45%&#34; src=&#34;http://www.moveableonline.com/Assets/wordpress-logo.png&#34;&gt;
@@ -122,10 +122,10 @@ for do not require this functionality. Everything from site search (JSON based i
     
     <item>
       <title>smackdown: html vs markdown</title>
-      <link>/post/2017/02/28/smackdown-html-vs-markdown/</link>
+      <link>http://www.raen.co.za/post/2017/02/28/smackdown-html-vs-markdown/</link>
       <pubDate>Tue, 28 Feb 2017 10:56:07 SAST</pubDate>
       
-      <guid>/post/2017/02/28/smackdown-html-vs-markdown/</guid>
+      <guid>http://www.raen.co.za/post/2017/02/28/smackdown-html-vs-markdown/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://leantesting.com/wp-content/uploads/2016/04/Markdown-mark.svg_.png&#34; width=&#34;45%&#34;&gt;
@@ -310,10 +310,10 @@ double line break (line 1)&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;double line br
     
     <item>
       <title>a universal illness cure</title>
-      <link>/post/2017/01/19/universal-cure/</link>
+      <link>http://www.raen.co.za/post/2017/01/19/universal-cure/</link>
       <pubDate>Thu, 19 Jan 2017 10:56:07 SAST</pubDate>
       
-      <guid>/post/2017/01/19/universal-cure/</guid>
+      <guid>http://www.raen.co.za/post/2017/01/19/universal-cure/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://i.kinja-img.com/gawker-media/image/upload/s--X6ClerXN--/c_scale,fl_progressive,q_80,w_800/18kxdch4lmvh9jpg.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
